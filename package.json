@@ -1,0 +1,16 @@
+{
+  "name": "json-days",
+  "version": "0.0.2",
+  "module": "src/index.ts",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "dev": "bun --hot src/index.ts",
+    "test": "bun test"
+  },
+  "type": "module"
+}
